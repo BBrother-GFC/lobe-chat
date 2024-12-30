@@ -2,5 +2,6 @@ version: "1"
 rules:
   - base: main
     upstream: lobehub:main
-    mergeMethod: merge
-    mergeUnstable: false
+    mergeMethod: hardreset
+    mergeUnstable: true
+    
